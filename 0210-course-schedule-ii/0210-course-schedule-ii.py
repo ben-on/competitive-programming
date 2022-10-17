@@ -1,15 +1,13 @@
 class Solution:
     def findOrder(self, numCourses: int, pre: List[List[int]]) -> List[int]:
-        # return [3,5,4,6,2,0,7,1]
         graph={c:[] for c in range(numCourses)}
         for i in pre:
             graph[i[1]].append(i[0])
         cycle , vis = set(), set()
-        output = []
+        output = deque([])
         for e in graph:
             if e not in vis:
                 stk=[e]
-                # cycle.add(e)
                 while stk:
                     child=False
                     temp=stk[-1]
@@ -25,8 +23,8 @@ class Solution:
                         stk.pop()
                         cycle.remove(temp)
                         if temp not in vis:
-                            output.append(temp)
+                            output.appendleft(temp)
                             vis.add(temp)
-        return list(reversed(output))
+        return output
                 
                     
