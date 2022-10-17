@@ -12,7 +12,7 @@ class Solution:
                     child=False
                     temp=stk[-1]
                     cycle.add(temp)
-                    for nb in graph[stk[-1]]:
+                    for nb in graph[temp]:
                         if nb in cycle:
                             return []
                         if nb not in vis:
