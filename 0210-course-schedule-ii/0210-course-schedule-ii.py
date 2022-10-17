@@ -6,7 +6,6 @@ class Solution:
             graph[i[1]].append(i[0])
         cycle , vis = set(), set()
         output = []
-        print(graph)
         for e in graph:
             if e not in vis:
                 stk=[e]
@@ -17,7 +16,6 @@ class Solution:
                     cycle.add(temp)
                     for nb in graph[stk[-1]]:
                         if nb in cycle:
-                            print(nb,cycle)
                             return []
                         if nb not in vis:
                             if not child:
