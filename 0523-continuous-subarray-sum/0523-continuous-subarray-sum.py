@@ -4,8 +4,9 @@ class Solution:
         t = 0
         for i in range(len(nums)):
             t += nums[i]
-            if t%k not in modIdx:
-                modIdx[t%k] = i
-            elif i - modIdx[t%k] >1:
+            rm = t%k
+            if rm not in modIdx:
+                modIdx[rm] = i
+            elif i - modIdx[rm] >1:
                 return True
         return False
