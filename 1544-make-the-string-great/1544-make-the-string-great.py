@@ -6,5 +6,4 @@ class Solution:
                 stk.pop()
             else:
                 stk.append(i)
-            print(stk)
         return "".join(stk)
