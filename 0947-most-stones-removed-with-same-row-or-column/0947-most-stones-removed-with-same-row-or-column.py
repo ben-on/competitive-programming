@@ -1,8 +1,9 @@
 class Solution:
     def removeStones(self, stones: List[List[int]]) -> int:
         graph = defaultdict(set)
-        for i in range(len(stones)):
-            for j in range(len(stones)):
+        n = len(stones)
+        for i in range(n):
+            for j in range(n):
                 if i == j:
                     continue
                 if stones[i][0]==stones[j][0] or stones[i][1] == stones[j][1]:
@@ -10,7 +11,7 @@ class Solution:
                     graph[j].add(i)
         vis = set()
         c = 0
-        for i in range(len(stones)):
+        for i in range(n):
             if i not in vis:
                 stk = [i]
                 tvis = {i}
@@ -22,6 +23,6 @@ class Solution:
                             stk.append(nb)
                             tvis.add(nb)
                 c+=1
-        return len(stones)-c
+        return n-c
         
         
