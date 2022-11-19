@@ -4,9 +4,9 @@ class Solution:
         l = 0
         r = sum(nums)-1
         zeros = sum([1 for i in range(r+1) if new[i] == 0 ])
-        # print(zeros)
+        n = len(new)
         ans = float('inf')
-        while r < len(new)-1:
+        while r < n-1:
             r+=1
             if new[r] == 0:
                 zeros+=1
