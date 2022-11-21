@@ -1,15 +1,26 @@
 class Solution:
     def nearestExit(self, maze: List[List[str]], entrance: List[int]) -> int:
-        q = collections.deque([(*entrance, 0)])
-        m, n = len(maze), len(maze[0])
-        maze[entrance[0]][entrance[1]] == '+'    
-        while q:
-            x, y, c = q.popleft()
-            if (x == 0 or x == m-1 or y == 0 or y == n-1) and [x, y] != entrance:
-                return c
-            for i, j in [(x+_x, y+_y) for _x, _y in [(-1, 0), (1, 0), (0, -1), (0, 1)]]:
-                if 0 <= i < m and 0 <= j < n and maze[i][j] == '.':
-                    maze[i][j] = '+'
-                    q.append((i, j, c + 1))
-        return -1
+        que = deque([entrance])
+        n,m = len(maze), len(maze[0])
+        moves = [(1,0),(-1,0),(0,1),(0,-1)]
+        vis = {tuple(entrance)}
+        dp = 0
+        b = False
+        while que :
+            r = len(que)
+            for _ in range(r):
+                x,y = que.popleft()
+                if [x,y]!= entrance:
+                    if x == n-1 or y == m-1 or x == 0 or y ==0 :
+                        b = True
+                        return dp
+                for mx,my in moves:
+                    nx = x+mx
+                    ny = y + my
+                    if (nx,ny) not in vis and 0<=nx <n and 0<=ny<m and maze[nx][ny]=='.':
+                        que.append([nx,ny])
+                        vis.add((nx,ny))
+            
+            dp+=1
+        return dp if b else -1
                     
