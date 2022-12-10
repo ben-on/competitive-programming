@@ -1,17 +1,8 @@
-# class TreeNode:
-#     def __init__ (self,val=0,right=None,left=None):
-#         self.val = val
-#         self.right = right
-#         self.left = left
-
-        
 class Solution:
     def countHighestScoreNodes(self, parents: List[int]) -> int:
         graph = defaultdict(list)
         for child,parent in enumerate(parents):
             graph[parent].append(child)
-        print(graph)
-        
         dp = {}
         def dfs(node):
             if not graph[node]:
@@ -24,7 +15,6 @@ class Solution:
             return dp[node]
         
         tot = dfs(graph[-1][0])
-        print(dp)
         # print(tot)
         ans = -float('inf')
         freq = None
