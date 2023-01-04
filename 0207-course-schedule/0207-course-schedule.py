@@ -1,26 +1,24 @@
 class Solution:
-    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        graph = {course :[] for course in range(numCourses)}
-        for prerequest in prerequisites:
-            graph[prerequest[1]].append(prerequest[0])
-        vis, cycle = set(), set()
-        for course in range(numCourses):
-            if course not in vis:
-                stk = [course]
-                while stk:
-                    temp=stk[-1]
-                    cycle.add(temp)
-                    child=False
-                    for nb in graph[temp]:
-                        if nb in cycle:
-                            return False
-                        if nb not in vis:
-                            if not child :
-                                child=True
-                            stk.append(nb)
-                    if not child:
-                        stk.pop()
-                        cycle.remove(temp)
-                        vis.add(temp)
-        return True
-                            
+    def canFinish(self, numCourses: int, preq: List[List[int]]) -> bool:
+        graph = defaultdict(list)
+        indeg = [0]*numCourses
+        for ai,bi in preq:
+            graph[bi].append(ai)
+            indeg[ai] += 1
+        
+        actual_order = []
+        que = deque([])
+        for i,ct in enumerate(indeg):
+            if ct == 0:
+                que.append(i)
+        while que:
+            temp = que.popleft()
+            actual_order.append(temp)
+            for nb in graph[temp]:
+                indeg[nb] -= 1
+                if indeg[nb] == 0:
+                    que.append(nb)
+        if len(actual_order) != numCourses:
+            return []
+        return actual_order
+            
