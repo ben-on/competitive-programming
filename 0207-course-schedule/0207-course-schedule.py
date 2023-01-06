@@ -1,24 +1,32 @@
 class Solution:
+    def hascycle(self,cur_node,graph,color): 
+        if color[cur_node] == 1:
+            return True
+        if color[cur_node] == 2:
+            return False
+        color[cur_node] = 1
+        for nb in graph[cur_node]:
+            cfound = self.hascycle(nb,graph,color)
+            if cfound :
+                return True
+        
+        color[cur_node] = 2
+        return False
     def canFinish(self, numCourses: int, preq: List[List[int]]) -> bool:
         graph = defaultdict(list)
-        indeg = [0]*numCourses
+        
+        
         for ai,bi in preq:
             graph[bi].append(ai)
-            indeg[ai] += 1
-        
-        actual_order = []
-        que = deque([])
-        for i,ct in enumerate(indeg):
-            if ct == 0:
-                que.append(i)
-        while que:
-            temp = que.popleft()
-            actual_order.append(temp)
-            for nb in graph[temp]:
-                indeg[nb] -= 1
-                if indeg[nb] == 0:
-                    que.append(nb)
-        if len(actual_order) != numCourses:
-            return []
-        return actual_order
             
+        colors = [0]*numCourses
+        for i in range(numCourses):
+            if colors[i] != 2:
+                cycle_found = self.hascycle(i,graph,colors)
+                if cycle_found:
+                    return False
+        return True
+    
+                
+            
+    
