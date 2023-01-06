@@ -12,13 +12,8 @@ class Solution:
         
         color[cur_node] = 2
         return False
-    def eventualSafeNodes(self, g: List[List[int]]) -> List[int]:
-        graph = defaultdict(list)
-        n = len(g)
-        
-        for i in range(len(g)):
-            graph[i] = g[i]
-            
+    def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
+        n = len(graph)
         colors = [0]*n
         for i in range(n):
             if colors[i] != 2:
