@@ -4,23 +4,20 @@ class Solution:
             return 1
         n = len(points)
         ans = -float('inf')
-        for i in range(n):
+        for i,(x1,y1) in enumerate(points):
             slopes = []
-            x1,y1 = points[i][0],points[i][1]
-            for j in range(n):
+            
+            for j,(x2,y2) in enumerate(points):
                 if i == j:
                     continue
-                x2,y2 = points[j][0],points[j][1]
                 if x1-x2:
-                    m = (y1-y2)/(x1-x2)
+                    m = (y1-y2)/(x1-x2) 
                 else:
                     m = "vert"
                 slopes.append(m)
-            # print(points[i],slopes)
+                
             curmax = max(Counter(slopes).values())
-            # print(curmax)
             ans = max(curmax,ans)
-        # print()
         return ans+1
             
                 
