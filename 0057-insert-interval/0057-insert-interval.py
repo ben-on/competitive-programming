@@ -6,7 +6,6 @@ class Solution:
         while intervals:
             temp = heapq.heappop(intervals)
             if temp[0] <= ans[-1][1]:
-                # ans[-1][0] = min(temp[0],ans[-1][0])
                 ans[-1][1] = max(temp[1],ans[-1][1])
             else:
                 ans.append(temp)
