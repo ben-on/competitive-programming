@@ -11,9 +11,7 @@ class Solution:
         stk=[root]
         while stk:
             temp=stk.pop()
-            tmp=temp.left
-            temp.left=temp.right
-            temp.right=tmp
+            temp.left,temp.right = temp.right,temp.left
             if temp.left:
                 stk.append(temp.left)
             if temp.right:
