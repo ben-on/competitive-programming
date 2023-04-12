@@ -7,18 +7,22 @@ class Solution:
             graph[b].add(a)
         
         
-        def dfs(i):
-            for neighbor in graph[i]:
-                if neighbor not in visited:
-                    visited.add(neighbor)
-                    dfs(neighbor)
+        # def dfs(i):
+        #     for neighbor in graph[i]:
+        #         if neighbor not in visited:
+        #             visited.add(neighbor)
+        #             dfs(neighbor)
                     
-        
-        
         for i in range(n):
             visited = set()
             visited.add(i)
-            dfs(i)
+            queue = deque([i])
+            while queue:
+                current = queue.popleft()
+                for neighbor in graph[current]:
+                    if neighbor not in visited:
+                        visited.add(neighbor)
+                        queue.append(neighbor)
             visited.discard(i)
             ans[i] = sorted(visited)
         
