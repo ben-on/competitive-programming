@@ -18,11 +18,12 @@ class Solution:
             visited.add(i)
             queue = deque([i])
             while queue:
-                current = queue.popleft()
-                for neighbor in graph[current]:
-                    if neighbor not in visited:
-                        visited.add(neighbor)
-                        queue.append(neighbor)
+                for _ in range(len(queue)):
+                    current = queue.popleft()
+                    for neighbor in graph[current]:
+                        if neighbor not in visited:
+                            visited.add(neighbor)
+                            queue.append(neighbor)
             visited.discard(i)
             ans[i] = sorted(visited)
         
