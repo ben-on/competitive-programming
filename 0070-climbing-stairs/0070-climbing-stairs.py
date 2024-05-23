@@ -1,9 +1,11 @@
 class Solution:
-    dp={}
+    @cache
     def climbStairs(self, n: int) -> int:
-        @lru_cache
-        def dfs(val):
-            if val >= n:
-                return 1 if val == n else 0
-            return dfs(val+1) + dfs(val+2)
-        return dfs(0)
+        if n == 1 or n == 0:
+            return 1
+        
+        return self.climbStairs(n - 1) + self.climbStairs(n - 2)
+        
+        
+        
+        
