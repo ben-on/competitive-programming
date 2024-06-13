@@ -22,4 +22,13 @@ Description
 # Graph
 |  |
 | ------- |
+| [1039-find-the-town-judge](https://github.com/ben-on/competitive-programming/tree/master/1039-find-the-town-judge) |
 | [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/ben-on/competitive-programming/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
+# Array
+|  |
+| ------- |
+| [1039-find-the-town-judge](https://github.com/ben-on/competitive-programming/tree/master/1039-find-the-town-judge) |
+# Hash Table
+|  |
+| ------- |
+| [1039-find-the-town-judge](https://github.com/ben-on/competitive-programming/tree/master/1039-find-the-town-judge) |
