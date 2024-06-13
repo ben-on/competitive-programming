@@ -19,3 +19,7 @@ Description
 |  |
 | ------- |
 | [1976-splitting-a-string-into-descending-consecutive-values](https://github.com/ben-on/competitive-programming/tree/master/1976-splitting-a-string-into-descending-consecutive-values) |
+# Graph
+|  |
+| ------- |
+| [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/ben-on/competitive-programming/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
