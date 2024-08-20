@@ -50,4 +50,8 @@ Description
 |  |
 | ------- |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0815-champagne-tower](https://github.com/ben-on/competitive-programming/tree/master/0815-champagne-tower) |
 <!---LeetCode Topics End-->
