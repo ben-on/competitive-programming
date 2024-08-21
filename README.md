@@ -53,5 +53,14 @@ Description
 ## Dynamic Programming
 |  |
 | ------- |
+| [0647-palindromic-substrings](https://github.com/ben-on/competitive-programming/tree/master/0647-palindromic-substrings) |
 | [0815-champagne-tower](https://github.com/ben-on/competitive-programming/tree/master/0815-champagne-tower) |
+## Two Pointers
+|  |
+| ------- |
+| [0647-palindromic-substrings](https://github.com/ben-on/competitive-programming/tree/master/0647-palindromic-substrings) |
+## String
+|  |
+| ------- |
+| [0647-palindromic-substrings](https://github.com/ben-on/competitive-programming/tree/master/0647-palindromic-substrings) |
 <!---LeetCode Topics End-->
