@@ -1,7 +1,6 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
         answer=0
-        ansLen=0
         for i in range(len(s)):
             left,right=i,i
             while left>=0 and right<len(s) and s[left]==s[right]:
