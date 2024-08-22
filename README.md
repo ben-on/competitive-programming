@@ -37,6 +37,7 @@ Description
 ## Array
 |  |
 | ------- |
+| [0174-dungeon-game](https://github.com/ben-on/competitive-programming/tree/master/0174-dungeon-game) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
 ## Hash Table
 |  |
@@ -53,6 +54,7 @@ Description
 ## Dynamic Programming
 |  |
 | ------- |
+| [0174-dungeon-game](https://github.com/ben-on/competitive-programming/tree/master/0174-dungeon-game) |
 | [0647-palindromic-substrings](https://github.com/ben-on/competitive-programming/tree/master/0647-palindromic-substrings) |
 | [0815-champagne-tower](https://github.com/ben-on/competitive-programming/tree/master/0815-champagne-tower) |
 ## Two Pointers
@@ -63,4 +65,8 @@ Description
 |  |
 | ------- |
 | [0647-palindromic-substrings](https://github.com/ben-on/competitive-programming/tree/master/0647-palindromic-substrings) |
+## Matrix
+|  |
+| ------- |
+| [0174-dungeon-game](https://github.com/ben-on/competitive-programming/tree/master/0174-dungeon-game) |
 <!---LeetCode Topics End-->
