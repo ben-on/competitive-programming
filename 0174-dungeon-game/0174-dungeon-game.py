@@ -12,9 +12,7 @@ class Solution:
                 dungeon[i][j] = min(0, dungeon[i][j] + max(down, right))
 
 
-        ans = abs(dungeon[0][0])     
-        
-        return ans + 1
+        return abs(dungeon[0][0]) + 1
 
 
 
