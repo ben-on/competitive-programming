@@ -1,22 +1,23 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        vis = set()
+        vis = 0
         cur = []
         ans = []
 
         def back(i = 0):
+            nonlocal vis
             if i == len(nums):
                 ans.append(cur.copy())
                 return
             
             for idx,num in enumerate(nums):
-                if idx not in vis:
-                    vis.add(idx)
+                if  not ((1 << idx) & vis ):
+                    vis = vis | (1 << idx)
                     cur.append(nums[idx])
                     
                     back(i + 1)
 
-                    vis.remove(idx)
+                    vis = vis & (~(1 << idx))
                     cur.pop()
         back()
 
