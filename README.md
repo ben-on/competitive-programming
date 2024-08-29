@@ -79,4 +79,8 @@ Description
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ben-on/competitive-programming/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0476-number-complement](https://github.com/ben-on/competitive-programming/tree/master/0476-number-complement) |
 <!---LeetCode Topics End-->
