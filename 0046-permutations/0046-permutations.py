@@ -1,25 +1,27 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        visited = set()
-        ans = []
+        vis = set()
         cur = []
+        ans = []
 
-        def back():
-            if len(visited) == len(nums):
+        def back(i = 0):
+            if i == len(nums):
                 ans.append(cur.copy())
                 return
             
-            for num in nums:
-                if num not in visited:
-                    cur.append(num)
-                    visited.add(num)
-                    back()
-                
+            for idx,num in enumerate(nums):
+                if idx not in vis:
+                    vis.add(idx)
+                    cur.append(nums[idx])
+                    
+                    back(i + 1)
+
+                    vis.remove(idx)
                     cur.pop()
-                    visited.remove(num)
         back()
+
         return ans
-            
+
 
 
         
