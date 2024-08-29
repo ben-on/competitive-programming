@@ -37,6 +37,7 @@ Description
 ## Array
 |  |
 | ------- |
+| [0046-permutations](https://github.com/ben-on/competitive-programming/tree/master/0046-permutations) |
 | [0174-dungeon-game](https://github.com/ben-on/competitive-programming/tree/master/0174-dungeon-game) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ben-on/competitive-programming/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
@@ -83,4 +84,8 @@ Description
 |  |
 | ------- |
 | [0476-number-complement](https://github.com/ben-on/competitive-programming/tree/master/0476-number-complement) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/ben-on/competitive-programming/tree/master/0046-permutations) |
 <!---LeetCode Topics End-->
