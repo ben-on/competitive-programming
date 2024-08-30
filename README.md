@@ -39,6 +39,7 @@ Description
 | ------- |
 | [0046-permutations](https://github.com/ben-on/competitive-programming/tree/master/0046-permutations) |
 | [0174-dungeon-game](https://github.com/ben-on/competitive-programming/tree/master/0174-dungeon-game) |
+| [0318-maximum-product-of-word-lengths](https://github.com/ben-on/competitive-programming/tree/master/0318-maximum-product-of-word-lengths) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ben-on/competitive-programming/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
 ## Hash Table
@@ -67,6 +68,7 @@ Description
 ## String
 |  |
 | ------- |
+| [0318-maximum-product-of-word-lengths](https://github.com/ben-on/competitive-programming/tree/master/0318-maximum-product-of-word-lengths) |
 | [0412-fizz-buzz](https://github.com/ben-on/competitive-programming/tree/master/0412-fizz-buzz) |
 | [0647-palindromic-substrings](https://github.com/ben-on/competitive-programming/tree/master/0647-palindromic-substrings) |
 ## Matrix
@@ -84,6 +86,7 @@ Description
 ## Bit Manipulation
 |  |
 | ------- |
+| [0318-maximum-product-of-word-lengths](https://github.com/ben-on/competitive-programming/tree/master/0318-maximum-product-of-word-lengths) |
 | [0476-number-complement](https://github.com/ben-on/competitive-programming/tree/master/0476-number-complement) |
 ## Backtracking
 |  |
