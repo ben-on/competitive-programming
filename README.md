@@ -67,6 +67,7 @@ Description
 ## String
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/ben-on/competitive-programming/tree/master/0412-fizz-buzz) |
 | [0647-palindromic-substrings](https://github.com/ben-on/competitive-programming/tree/master/0647-palindromic-substrings) |
 ## Matrix
 |  |
@@ -88,4 +89,12 @@ Description
 |  |
 | ------- |
 | [0046-permutations](https://github.com/ben-on/competitive-programming/tree/master/0046-permutations) |
+## Math
+|  |
+| ------- |
+| [0412-fizz-buzz](https://github.com/ben-on/competitive-programming/tree/master/0412-fizz-buzz) |
+## Simulation
+|  |
+| ------- |
+| [0412-fizz-buzz](https://github.com/ben-on/competitive-programming/tree/master/0412-fizz-buzz) |
 <!---LeetCode Topics End-->
