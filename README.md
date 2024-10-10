@@ -40,6 +40,7 @@ Description
 | [0046-permutations](https://github.com/ben-on/competitive-programming/tree/master/0046-permutations) |
 | [0174-dungeon-game](https://github.com/ben-on/competitive-programming/tree/master/0174-dungeon-game) |
 | [0318-maximum-product-of-word-lengths](https://github.com/ben-on/competitive-programming/tree/master/0318-maximum-product-of-word-lengths) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/ben-on/competitive-programming/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ben-on/competitive-programming/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0735-asteroid-collision](https://github.com/ben-on/competitive-programming/tree/master/0735-asteroid-collision) |
 | [0948-sort-an-array](https://github.com/ben-on/competitive-programming/tree/master/0948-sort-an-array) |
@@ -47,6 +48,7 @@ Description
 ## Hash Table
 |  |
 | ------- |
+| [0442-find-all-duplicates-in-an-array](https://github.com/ben-on/competitive-programming/tree/master/0442-find-all-duplicates-in-an-array) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
 ## Greedy
 |  |
