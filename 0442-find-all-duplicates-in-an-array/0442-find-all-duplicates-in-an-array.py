@@ -5,11 +5,10 @@ class Solution:
         ans = []
         while i < n:
             correct_position = arr[i] - 1
-            if correct_position != i:
+            
+            if arr[correct_position] != arr[i]:
                 arr[correct_position], arr[i] = arr[i], arr[correct_position]
-                if arr[correct_position] == arr[i]:
-                    ans.append(arr[i])
-                    i += 1
             else:
                 i += 1
-        return set(ans)
+
+        return [arr[i] for i in range(n) if arr[i] != i + 1]
