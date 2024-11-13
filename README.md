@@ -46,6 +46,7 @@ Description
 | [0948-sort-an-array](https://github.com/ben-on/competitive-programming/tree/master/0948-sort-an-array) |
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/ben-on/competitive-programming/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
+| [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/ben-on/competitive-programming/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
 ## Hash Table
 |  |
 | ------- |
@@ -58,6 +59,7 @@ Description
 | ------- |
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/ben-on/competitive-programming/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
+| [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/ben-on/competitive-programming/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
 ## Sorting
 |  |
 | ------- |
@@ -106,6 +108,7 @@ Description
 |  |
 | ------- |
 | [0412-fizz-buzz](https://github.com/ben-on/competitive-programming/tree/master/0412-fizz-buzz) |
+| [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/ben-on/competitive-programming/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
 ## Simulation
 |  |
 | ------- |
@@ -143,4 +146,8 @@ Description
 |  |
 | ------- |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/ben-on/competitive-programming/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
+## Number Theory
+|  |
+| ------- |
+| [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/ben-on/competitive-programming/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
 <!---LeetCode Topics End-->
