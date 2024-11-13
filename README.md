@@ -47,6 +47,7 @@ Description
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/ben-on/competitive-programming/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
 | [3487-find-maximum-removals-from-source-string](https://github.com/ben-on/competitive-programming/tree/master/3487-find-maximum-removals-from-source-string) |
+| [3579-maximum-possible-number-by-binary-concatenation](https://github.com/ben-on/competitive-programming/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/ben-on/competitive-programming/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
 | [3611-construct-the-minimum-bitwise-array-ii](https://github.com/ben-on/competitive-programming/tree/master/3611-construct-the-minimum-bitwise-array-ii) |
 ## Hash Table
@@ -107,6 +108,7 @@ Description
 | ------- |
 | [0318-maximum-product-of-word-lengths](https://github.com/ben-on/competitive-programming/tree/master/0318-maximum-product-of-word-lengths) |
 | [0476-number-complement](https://github.com/ben-on/competitive-programming/tree/master/0476-number-complement) |
+| [3579-maximum-possible-number-by-binary-concatenation](https://github.com/ben-on/competitive-programming/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 | [3611-construct-the-minimum-bitwise-array-ii](https://github.com/ben-on/competitive-programming/tree/master/3611-construct-the-minimum-bitwise-array-ii) |
 ## Backtracking
 |  |
@@ -170,4 +172,8 @@ Description
 |  |
 | ------- |
 | [3509-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/ben-on/competitive-programming/tree/master/3509-k-th-largest-perfect-subtree-size-in-binary-tree) |
+## Enumeration
+|  |
+| ------- |
+| [3579-maximum-possible-number-by-binary-concatenation](https://github.com/ben-on/competitive-programming/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 <!---LeetCode Topics End-->
