@@ -65,6 +65,7 @@ Description
 | ------- |
 | [0948-sort-an-array](https://github.com/ben-on/competitive-programming/tree/master/0948-sort-an-array) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
+| [3509-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/ben-on/competitive-programming/tree/master/3509-k-th-largest-perfect-subtree-size-in-binary-tree) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -150,4 +151,16 @@ Description
 |  |
 | ------- |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/ben-on/competitive-programming/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
+## Tree
+|  |
+| ------- |
+| [3509-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/ben-on/competitive-programming/tree/master/3509-k-th-largest-perfect-subtree-size-in-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [3509-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/ben-on/competitive-programming/tree/master/3509-k-th-largest-perfect-subtree-size-in-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [3509-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/ben-on/competitive-programming/tree/master/3509-k-th-largest-perfect-subtree-size-in-binary-tree) |
 <!---LeetCode Topics End-->
