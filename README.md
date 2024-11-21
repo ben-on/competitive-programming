@@ -44,6 +44,7 @@ Description
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ben-on/competitive-programming/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0735-asteroid-collision](https://github.com/ben-on/competitive-programming/tree/master/0735-asteroid-collision) |
 | [0948-sort-an-array](https://github.com/ben-on/competitive-programming/tree/master/0948-sort-an-array) |
+| [1374-leftmost-column-with-at-least-a-one](https://github.com/ben-on/competitive-programming/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/ben-on/competitive-programming/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
 | [3487-find-maximum-removals-from-source-string](https://github.com/ben-on/competitive-programming/tree/master/3487-find-maximum-removals-from-source-string) |
@@ -95,6 +96,7 @@ Description
 |  |
 | ------- |
 | [0174-dungeon-game](https://github.com/ben-on/competitive-programming/tree/master/0174-dungeon-game) |
+| [1374-leftmost-column-with-at-least-a-one](https://github.com/ben-on/competitive-programming/tree/master/1374-leftmost-column-with-at-least-a-one) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -176,4 +178,12 @@ Description
 |  |
 | ------- |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/ben-on/competitive-programming/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
+## Binary Search
+|  |
+| ------- |
+| [1374-leftmost-column-with-at-least-a-one](https://github.com/ben-on/competitive-programming/tree/master/1374-leftmost-column-with-at-least-a-one) |
+## Interactive
+|  |
+| ------- |
+| [1374-leftmost-column-with-at-least-a-one](https://github.com/ben-on/competitive-programming/tree/master/1374-leftmost-column-with-at-least-a-one) |
 <!---LeetCode Topics End-->
