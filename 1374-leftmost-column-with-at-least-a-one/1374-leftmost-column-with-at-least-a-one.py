@@ -10,17 +10,12 @@ class Solution:
     def leftMostColumnWithOne(self, mat: 'BinaryMatrix') -> int:
         rows,cols = mat.dimensions()
         minCol = float('inf')
+        col = cols-1
         for row in range(rows):
-            if mat.get(row,cols-1) == 1:
-                start = 0
-                end = cols-1
-                while start <= end:
-                    mid = start + (end-start)//2
-                    if mat.get(row,mid) == 1:
-                        end = mid - 1
-                    else:
-                        start = mid + 1
-                if start < cols:
-                    minCol = min(minCol,start)
+            while col >= 0:
+                if mat.get(row,col) == 0:
+                    break
+                if mat.get(row,col) == 1:
+                    minCol = min(minCol,col)
+                col -= 1
         return minCol if minCol != float('inf') else -1
-        
