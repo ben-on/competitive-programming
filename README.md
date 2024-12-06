@@ -46,6 +46,7 @@ Description
 | [0948-sort-an-array](https://github.com/ben-on/competitive-programming/tree/master/0948-sort-an-array) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/ben-on/competitive-programming/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/ben-on/competitive-programming/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
+| [1552-build-an-array-with-stack-operations](https://github.com/ben-on/competitive-programming/tree/master/1552-build-an-array-with-stack-operations) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
 | [3487-find-maximum-removals-from-source-string](https://github.com/ben-on/competitive-programming/tree/master/3487-find-maximum-removals-from-source-string) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/ben-on/competitive-programming/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
@@ -126,10 +127,12 @@ Description
 | ------- |
 | [0412-fizz-buzz](https://github.com/ben-on/competitive-programming/tree/master/0412-fizz-buzz) |
 | [0735-asteroid-collision](https://github.com/ben-on/competitive-programming/tree/master/0735-asteroid-collision) |
+| [1552-build-an-array-with-stack-operations](https://github.com/ben-on/competitive-programming/tree/master/1552-build-an-array-with-stack-operations) |
 ## Stack
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/ben-on/competitive-programming/tree/master/0735-asteroid-collision) |
+| [1552-build-an-array-with-stack-operations](https://github.com/ben-on/competitive-programming/tree/master/1552-build-an-array-with-stack-operations) |
 ## Divide and Conquer
 |  |
 | ------- |
