@@ -38,6 +38,7 @@ Description
 |  |
 | ------- |
 | [0046-permutations](https://github.com/ben-on/competitive-programming/tree/master/0046-permutations) |
+| [0074-search-a-2d-matrix](https://github.com/ben-on/competitive-programming/tree/master/0074-search-a-2d-matrix) |
 | [0174-dungeon-game](https://github.com/ben-on/competitive-programming/tree/master/0174-dungeon-game) |
 | [0318-maximum-product-of-word-lengths](https://github.com/ben-on/competitive-programming/tree/master/0318-maximum-product-of-word-lengths) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ben-on/competitive-programming/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -101,6 +102,7 @@ Description
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/ben-on/competitive-programming/tree/master/0074-search-a-2d-matrix) |
 | [0174-dungeon-game](https://github.com/ben-on/competitive-programming/tree/master/0174-dungeon-game) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/ben-on/competitive-programming/tree/master/1374-leftmost-column-with-at-least-a-one) |
 ## Binary Indexed Tree
@@ -190,6 +192,7 @@ Description
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/ben-on/competitive-programming/tree/master/0074-search-a-2d-matrix) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/ben-on/competitive-programming/tree/master/1374-leftmost-column-with-at-least-a-one) |
 ## Interactive
 |  |
