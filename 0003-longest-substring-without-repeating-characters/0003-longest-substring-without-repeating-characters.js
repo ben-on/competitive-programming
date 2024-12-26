@@ -3,17 +3,18 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function(s) {
-    let maxset = new Set();
-    let l = 0
+    const freq = Array(26).fill(false);
     let ans = 0
+    let l = 0
+
     for(let i = 0; i < s.length; i++){
-        while(maxset.has(s[i])){
-            maxset.delete(s[l]);
-            l += 1;
+        let curPos = s.charCodeAt(i) - 97
+        while(freq[curPos]){
+            freq[s.charCodeAt(l) - 97] = false
+            l += 1
         }
-        maxset.add(s[i])
+        freq[curPos] = true
         ans = Math.max(ans, i - l + 1);
     }
-
     return ans
 };
