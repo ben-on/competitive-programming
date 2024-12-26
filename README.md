@@ -58,6 +58,7 @@ Description
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ben-on/competitive-programming/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ben-on/competitive-programming/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/ben-on/competitive-programming/tree/master/0496-next-greater-element-i) |
 | [0926-find-and-replace-pattern](https://github.com/ben-on/competitive-programming/tree/master/0926-find-and-replace-pattern) |
@@ -94,6 +95,7 @@ Description
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ben-on/competitive-programming/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0318-maximum-product-of-word-lengths](https://github.com/ben-on/competitive-programming/tree/master/0318-maximum-product-of-word-lengths) |
 | [0412-fizz-buzz](https://github.com/ben-on/competitive-programming/tree/master/0412-fizz-buzz) |
 | [0541-reverse-string-ii](https://github.com/ben-on/competitive-programming/tree/master/0541-reverse-string-ii) |
@@ -170,6 +172,7 @@ Description
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ben-on/competitive-programming/tree/master/0003-longest-substring-without-repeating-characters) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/ben-on/competitive-programming/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 ## Number Theory
 |  |
