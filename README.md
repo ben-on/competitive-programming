@@ -51,6 +51,7 @@ Description
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/ben-on/competitive-programming/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1552-build-an-array-with-stack-operations](https://github.com/ben-on/competitive-programming/tree/master/1552-build-an-array-with-stack-operations) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
+| [2466-maximum-segment-sum-after-removals](https://github.com/ben-on/competitive-programming/tree/master/2466-maximum-segment-sum-after-removals) |
 | [3487-find-maximum-removals-from-source-string](https://github.com/ben-on/competitive-programming/tree/master/3487-find-maximum-removals-from-source-string) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/ben-on/competitive-programming/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/ben-on/competitive-programming/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
@@ -207,4 +208,16 @@ Description
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/ben-on/competitive-programming/tree/master/0496-next-greater-element-i) |
+## Union Find
+|  |
+| ------- |
+| [2466-maximum-segment-sum-after-removals](https://github.com/ben-on/competitive-programming/tree/master/2466-maximum-segment-sum-after-removals) |
+## Prefix Sum
+|  |
+| ------- |
+| [2466-maximum-segment-sum-after-removals](https://github.com/ben-on/competitive-programming/tree/master/2466-maximum-segment-sum-after-removals) |
+## Ordered Set
+|  |
+| ------- |
+| [2466-maximum-segment-sum-after-removals](https://github.com/ben-on/competitive-programming/tree/master/2466-maximum-segment-sum-after-removals) |
 <!---LeetCode Topics End-->
