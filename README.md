@@ -103,6 +103,7 @@ Description
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ben-on/competitive-programming/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0020-valid-parentheses](https://github.com/ben-on/competitive-programming/tree/master/0020-valid-parentheses) |
 | [0318-maximum-product-of-word-lengths](https://github.com/ben-on/competitive-programming/tree/master/0318-maximum-product-of-word-lengths) |
 | [0412-fizz-buzz](https://github.com/ben-on/competitive-programming/tree/master/0412-fizz-buzz) |
 | [0541-reverse-string-ii](https://github.com/ben-on/competitive-programming/tree/master/0541-reverse-string-ii) |
@@ -149,6 +150,7 @@ Description
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/ben-on/competitive-programming/tree/master/0020-valid-parentheses) |
 | [0496-next-greater-element-i](https://github.com/ben-on/competitive-programming/tree/master/0496-next-greater-element-i) |
 | [0735-asteroid-collision](https://github.com/ben-on/competitive-programming/tree/master/0735-asteroid-collision) |
 | [1552-build-an-array-with-stack-operations](https://github.com/ben-on/competitive-programming/tree/master/1552-build-an-array-with-stack-operations) |
