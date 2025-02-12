@@ -46,6 +46,7 @@ Description
 | [0496-next-greater-element-i](https://github.com/ben-on/competitive-programming/tree/master/0496-next-greater-element-i) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ben-on/competitive-programming/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0735-asteroid-collision](https://github.com/ben-on/competitive-programming/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/ben-on/competitive-programming/tree/master/0739-daily-temperatures) |
 | [0926-find-and-replace-pattern](https://github.com/ben-on/competitive-programming/tree/master/0926-find-and-replace-pattern) |
 | [0948-sort-an-array](https://github.com/ben-on/competitive-programming/tree/master/0948-sort-an-array) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/ben-on/competitive-programming/tree/master/1374-leftmost-column-with-at-least-a-one) |
@@ -153,6 +154,7 @@ Description
 | [0020-valid-parentheses](https://github.com/ben-on/competitive-programming/tree/master/0020-valid-parentheses) |
 | [0496-next-greater-element-i](https://github.com/ben-on/competitive-programming/tree/master/0496-next-greater-element-i) |
 | [0735-asteroid-collision](https://github.com/ben-on/competitive-programming/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/ben-on/competitive-programming/tree/master/0739-daily-temperatures) |
 | [1552-build-an-array-with-stack-operations](https://github.com/ben-on/competitive-programming/tree/master/1552-build-an-array-with-stack-operations) |
 ## Divide and Conquer
 |  |
@@ -217,6 +219,7 @@ Description
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/ben-on/competitive-programming/tree/master/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/ben-on/competitive-programming/tree/master/0739-daily-temperatures) |
 ## Union Find
 |  |
 | ------- |
