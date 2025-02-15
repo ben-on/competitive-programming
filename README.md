@@ -39,6 +39,7 @@ Description
 | ------- |
 | [0046-permutations](https://github.com/ben-on/competitive-programming/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/ben-on/competitive-programming/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/ben-on/competitive-programming/tree/master/0055-jump-game) |
 | [0074-search-a-2d-matrix](https://github.com/ben-on/competitive-programming/tree/master/0074-search-a-2d-matrix) |
 | [0174-dungeon-game](https://github.com/ben-on/competitive-programming/tree/master/0174-dungeon-game) |
 | [0318-maximum-product-of-word-lengths](https://github.com/ben-on/competitive-programming/tree/master/0318-maximum-product-of-word-lengths) |
@@ -74,6 +75,7 @@ Description
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/ben-on/competitive-programming/tree/master/0055-jump-game) |
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/ben-on/competitive-programming/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/ben-on/competitive-programming/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
@@ -88,6 +90,7 @@ Description
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ben-on/competitive-programming/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/ben-on/competitive-programming/tree/master/0055-jump-game) |
 | [0174-dungeon-game](https://github.com/ben-on/competitive-programming/tree/master/0174-dungeon-game) |
 | [0647-palindromic-substrings](https://github.com/ben-on/competitive-programming/tree/master/0647-palindromic-substrings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ben-on/competitive-programming/tree/master/0673-number-of-longest-increasing-subsequence) |
