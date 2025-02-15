@@ -1,14 +1,15 @@
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
-        if nums[0] == 0 and len(nums) > 1:
-            return False
+        GOOD, BAD, UNKNOWN = 1, 0, -1
+        memo = [UNKNOWN] * len(nums)
+        memo[-1] = GOOD
+        for i in range(len(nums) - 2, -1, -1):
+            furthest_jump = min(i + nums[i], len(nums) - 1)
+            for j in range(i + 1, furthest_jump + 1):
+                if memo[j] == GOOD:
+                    memo[i] = GOOD
+                    break
+        return memo[0] == GOOD
 
-        mx = nums[0] - 1
 
-        for i in range(1, len(nums) - 1):
-            if nums[i] == 0 and mx == 0:
-                return False
-            mx = max(nums[i], mx)
-            mx -= 1
-        
-        return True
+
