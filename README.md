@@ -53,6 +53,7 @@ Description
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/ben-on/competitive-programming/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/ben-on/competitive-programming/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1552-build-an-array-with-stack-operations](https://github.com/ben-on/competitive-programming/tree/master/1552-build-an-array-with-stack-operations) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ben-on/competitive-programming/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
 | [2466-maximum-segment-sum-after-removals](https://github.com/ben-on/competitive-programming/tree/master/2466-maximum-segment-sum-after-removals) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ben-on/competitive-programming/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -96,6 +97,7 @@ Description
 | [0647-palindromic-substrings](https://github.com/ben-on/competitive-programming/tree/master/0647-palindromic-substrings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ben-on/competitive-programming/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0815-champagne-tower](https://github.com/ben-on/competitive-programming/tree/master/0815-champagne-tower) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ben-on/competitive-programming/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [3487-find-maximum-removals-from-source-string](https://github.com/ben-on/competitive-programming/tree/master/3487-find-maximum-removals-from-source-string) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/ben-on/competitive-programming/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Two Pointers
@@ -145,6 +147,7 @@ Description
 |  |
 | ------- |
 | [0412-fizz-buzz](https://github.com/ben-on/competitive-programming/tree/master/0412-fizz-buzz) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ben-on/competitive-programming/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/ben-on/competitive-programming/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
 ## Simulation
 |  |
@@ -233,6 +236,7 @@ Description
 ## Prefix Sum
 |  |
 | ------- |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ben-on/competitive-programming/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2466-maximum-segment-sum-after-removals](https://github.com/ben-on/competitive-programming/tree/master/2466-maximum-segment-sum-after-removals) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/ben-on/competitive-programming/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Ordered Set
