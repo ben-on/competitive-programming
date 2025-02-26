@@ -1,28 +1,17 @@
 class Solution:
-    def findmin(self, arr):
-        ans = min(arr) 
-        prevmax = 0
-        running = 0
-        
-
-        for num in arr:
-            running += num
-            ans = min(running - prevmax, ans)
-            prevmax = max(running, prevmax)
-
-        return ans
-
-
-
     def maxAbsoluteSum(self, nums: List[int]) -> int:
         ans = max(nums) 
+        ans2 = min(nums)
         prevmin = 0
+        prevmax = 0
         running = 0
         
 
         for num in nums:
             running += num
             ans = max(running - prevmin, ans)
+            ans2 = min(running - prevmax, ans2)
             prevmin = min(running, prevmin)
+            prevmax = max(running, prevmax)
         
-        return max(abs(ans), abs(self.findmin(nums)))
+        return max(abs(ans), abs(ans2))
