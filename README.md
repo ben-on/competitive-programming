@@ -54,6 +54,7 @@ Description
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/ben-on/competitive-programming/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1552-build-an-array-with-stack-operations](https://github.com/ben-on/competitive-programming/tree/master/1552-build-an-array-with-stack-operations) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ben-on/competitive-programming/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1849-maximum-absolute-sum-of-any-subarray](https://github.com/ben-on/competitive-programming/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
 | [2466-maximum-segment-sum-after-removals](https://github.com/ben-on/competitive-programming/tree/master/2466-maximum-segment-sum-after-removals) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ben-on/competitive-programming/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -98,6 +99,7 @@ Description
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ben-on/competitive-programming/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0815-champagne-tower](https://github.com/ben-on/competitive-programming/tree/master/0815-champagne-tower) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ben-on/competitive-programming/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1849-maximum-absolute-sum-of-any-subarray](https://github.com/ben-on/competitive-programming/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [3487-find-maximum-removals-from-source-string](https://github.com/ben-on/competitive-programming/tree/master/3487-find-maximum-removals-from-source-string) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/ben-on/competitive-programming/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Two Pointers
