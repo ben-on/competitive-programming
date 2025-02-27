@@ -9,10 +9,14 @@ class Solution:
             for j in range(i + 1, n):
                 cur_ans = 2 
                 a1, a2 = arr[i], arr[j]
-                while a1 + a2 in vals:
+                while a1 + a2 in vals:  
+                    if (a1, a2) in dic:
+                        cur_ans += dic[(a1,a2)] - 2
+                        break
                     a3 = a1 + a2
                     a1 = a2
                     a2 = a3 
-                    cur_ans += 1
+                    cur_ans += 1   
+                dic[(arr[i], arr[j])] = cur_ans
                 ans = max(cur_ans, ans)
         return ans if ans >= 3 else 0
