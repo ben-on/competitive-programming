@@ -2,15 +2,7 @@ class Solution:
     def lenLongestFibSubseq(self, arr: List[int]) -> int:
         vals = {val:idx for idx, val in enumerate(arr)}  
         dic = {}
-        def dp(a1,a2): 
-            if (a1, a2) in dic:  
-                return dic[(a1, a2)]
-            if a1 + a2 not in vals: 
-                return 0
-            
-            dic[(a1,a2)] = 1 + dp(a2, a1 + a2)
-
-            return dic[(a1,a2)]
+        
         n  = len(arr)
         ans = 0
         for i in range(n): 
