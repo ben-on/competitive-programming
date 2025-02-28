@@ -101,6 +101,7 @@ Description
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ben-on/competitive-programming/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0815-champagne-tower](https://github.com/ben-on/competitive-programming/tree/master/0815-champagne-tower) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ben-on/competitive-programming/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [1250-longest-common-subsequence](https://github.com/ben-on/competitive-programming/tree/master/1250-longest-common-subsequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ben-on/competitive-programming/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/ben-on/competitive-programming/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [3487-find-maximum-removals-from-source-string](https://github.com/ben-on/competitive-programming/tree/master/3487-find-maximum-removals-from-source-string) |
@@ -121,6 +122,7 @@ Description
 | [0541-reverse-string-ii](https://github.com/ben-on/competitive-programming/tree/master/0541-reverse-string-ii) |
 | [0647-palindromic-substrings](https://github.com/ben-on/competitive-programming/tree/master/0647-palindromic-substrings) |
 | [0926-find-and-replace-pattern](https://github.com/ben-on/competitive-programming/tree/master/0926-find-and-replace-pattern) |
+| [1250-longest-common-subsequence](https://github.com/ben-on/competitive-programming/tree/master/1250-longest-common-subsequence) |
 | [3487-find-maximum-removals-from-source-string](https://github.com/ben-on/competitive-programming/tree/master/3487-find-maximum-removals-from-source-string) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/ben-on/competitive-programming/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 ## Matrix
