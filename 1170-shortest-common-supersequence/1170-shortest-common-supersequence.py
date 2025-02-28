@@ -43,7 +43,7 @@ class Solution:
 
 
         
-        return new
+        return "".join(new)
 
 
 
