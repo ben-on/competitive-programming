@@ -1,21 +1,31 @@
 class Solution:
     def maxSum(self, nums: List[int], k: int, m: int) -> int:
         n = len(nums)
-        pref=list(accumulate(nums,initial=0))
+        memo = [[0 for i in range(n + 1)] for j in range(n + 1)]
+        pref = list(accumulate(nums, initial=0))
         @cache
-        def dp(i,k,can_extend):
-            if n-i<k*m:
+        def dp(cnt, idx, bl):
+            if n - idx < (k - cnt) * m:
                 return -inf
-            if i == n:
-                return 0 if k == 0 else -inf
+            if idx >= n:
+                if cnt == k:
+                    return 0
+                return -inf
+            
+            ans = dp(cnt, idx + 1, False)
+            if bl:
+                ans = max(ans, nums[idx] + dp(cnt, idx + 1, bl))
+            
+            if idx + m <= n:
+                ans = max(ans, pref[idx + m] - pref[idx] + dp(cnt + 1, idx + m, True))
 
-            ans = dp(i+1,k,False)
-            if can_extend:
-                ans=max(ans,dp(i+1,k,True)+nums[i])
-            if k > 0 and i+m<=n:
-                ans = max(ans, dp(i+m,k-1,True)+pref[i+m]-pref[i])
-            return ans   
-
-        ans = dp(0,k,False)
+            
+            return ans
+        
+        res = dp(0,0, False)
         dp.cache_clear()
-        return ans
+
+        return res
+                
+
+
