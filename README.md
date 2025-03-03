@@ -57,6 +57,7 @@ Description
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ben-on/competitive-programming/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/ben-on/competitive-programming/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ben-on/competitive-programming/tree/master/2117-find-original-array-from-doubled-array) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/ben-on/competitive-programming/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2466-maximum-segment-sum-after-removals](https://github.com/ben-on/competitive-programming/tree/master/2466-maximum-segment-sum-after-removals) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ben-on/competitive-programming/tree/master/2564-most-profitable-path-in-a-tree) |
 | [3487-find-maximum-removals-from-source-string](https://github.com/ben-on/competitive-programming/tree/master/3487-find-maximum-removals-from-source-string) |
@@ -112,6 +113,7 @@ Description
 | ------- |
 | [0541-reverse-string-ii](https://github.com/ben-on/competitive-programming/tree/master/0541-reverse-string-ii) |
 | [0647-palindromic-substrings](https://github.com/ben-on/competitive-programming/tree/master/0647-palindromic-substrings) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/ben-on/competitive-programming/tree/master/2265-partition-array-according-to-given-pivot) |
 | [3487-find-maximum-removals-from-source-string](https://github.com/ben-on/competitive-programming/tree/master/3487-find-maximum-removals-from-source-string) |
 ## String
 |  |
@@ -164,6 +166,7 @@ Description
 | [0412-fizz-buzz](https://github.com/ben-on/competitive-programming/tree/master/0412-fizz-buzz) |
 | [0735-asteroid-collision](https://github.com/ben-on/competitive-programming/tree/master/0735-asteroid-collision) |
 | [1552-build-an-array-with-stack-operations](https://github.com/ben-on/competitive-programming/tree/master/1552-build-an-array-with-stack-operations) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/ben-on/competitive-programming/tree/master/2265-partition-array-according-to-given-pivot) |
 ## Stack
 |  |
 | ------- |
