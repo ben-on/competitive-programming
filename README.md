@@ -160,6 +160,7 @@ Description
 | [0412-fizz-buzz](https://github.com/ben-on/competitive-programming/tree/master/0412-fizz-buzz) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ben-on/competitive-programming/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/ben-on/competitive-programming/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [2649-count-total-number-of-colored-cells](https://github.com/ben-on/competitive-programming/tree/master/2649-count-total-number-of-colored-cells) |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/ben-on/competitive-programming/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
 ## Simulation
 |  |
