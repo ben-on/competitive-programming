@@ -129,6 +129,7 @@ Description
 | [0926-find-and-replace-pattern](https://github.com/ben-on/competitive-programming/tree/master/0926-find-and-replace-pattern) |
 | [1170-shortest-common-supersequence](https://github.com/ben-on/competitive-programming/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/ben-on/competitive-programming/tree/master/1250-longest-common-subsequence) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/ben-on/competitive-programming/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3487-find-maximum-removals-from-source-string](https://github.com/ben-on/competitive-programming/tree/master/3487-find-maximum-removals-from-source-string) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/ben-on/competitive-programming/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 ## Matrix
@@ -211,6 +212,7 @@ Description
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ben-on/competitive-programming/tree/master/0003-longest-substring-without-repeating-characters) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/ben-on/competitive-programming/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/ben-on/competitive-programming/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 ## Number Theory
 |  |
