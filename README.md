@@ -61,6 +61,7 @@ Description
 | [2466-maximum-segment-sum-after-removals](https://github.com/ben-on/competitive-programming/tree/master/2466-maximum-segment-sum-after-removals) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ben-on/competitive-programming/tree/master/2564-most-profitable-path-in-a-tree) |
 | [3227-find-missing-and-repeated-values](https://github.com/ben-on/competitive-programming/tree/master/3227-find-missing-and-repeated-values) |
+| [3483-alternating-groups-ii](https://github.com/ben-on/competitive-programming/tree/master/3483-alternating-groups-ii) |
 | [3487-find-maximum-removals-from-source-string](https://github.com/ben-on/competitive-programming/tree/master/3487-find-maximum-removals-from-source-string) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/ben-on/competitive-programming/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/ben-on/competitive-programming/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
@@ -213,6 +214,7 @@ Description
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ben-on/competitive-programming/tree/master/0003-longest-substring-without-repeating-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/ben-on/competitive-programming/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [3483-alternating-groups-ii](https://github.com/ben-on/competitive-programming/tree/master/3483-alternating-groups-ii) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/ben-on/competitive-programming/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 ## Number Theory
 |  |
