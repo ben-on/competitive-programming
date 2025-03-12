@@ -60,6 +60,7 @@ Description
 | [2265-partition-array-according-to-given-pivot](https://github.com/ben-on/competitive-programming/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2466-maximum-segment-sum-after-removals](https://github.com/ben-on/competitive-programming/tree/master/2466-maximum-segment-sum-after-removals) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ben-on/competitive-programming/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ben-on/competitive-programming/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3227-find-missing-and-repeated-values](https://github.com/ben-on/competitive-programming/tree/master/3227-find-missing-and-repeated-values) |
 | [3483-alternating-groups-ii](https://github.com/ben-on/competitive-programming/tree/master/3483-alternating-groups-ii) |
 | [3487-find-maximum-removals-from-source-string](https://github.com/ben-on/competitive-programming/tree/master/3487-find-maximum-removals-from-source-string) |
@@ -213,6 +214,7 @@ Description
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/ben-on/competitive-programming/tree/master/0948-sort-an-array) |
+| [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ben-on/competitive-programming/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Sliding Window
 |  |
 | ------- |
@@ -250,6 +252,7 @@ Description
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/ben-on/competitive-programming/tree/master/0074-search-a-2d-matrix) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/ben-on/competitive-programming/tree/master/1374-leftmost-column-with-at-least-a-one) |
+| [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ben-on/competitive-programming/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Interactive
 |  |
 | ------- |
