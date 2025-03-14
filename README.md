@@ -51,6 +51,7 @@ Description
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ben-on/competitive-programming/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0926-find-and-replace-pattern](https://github.com/ben-on/competitive-programming/tree/master/0926-find-and-replace-pattern) |
 | [0948-sort-an-array](https://github.com/ben-on/competitive-programming/tree/master/0948-sort-an-array) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/ben-on/competitive-programming/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/ben-on/competitive-programming/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/ben-on/competitive-programming/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1552-build-an-array-with-stack-operations](https://github.com/ben-on/competitive-programming/tree/master/1552-build-an-array-with-stack-operations) |
@@ -251,6 +252,7 @@ Description
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/ben-on/competitive-programming/tree/master/0074-search-a-2d-matrix) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/ben-on/competitive-programming/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/ben-on/competitive-programming/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ben-on/competitive-programming/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Interactive
