@@ -62,6 +62,7 @@ Description
 | [2466-maximum-segment-sum-after-removals](https://github.com/ben-on/competitive-programming/tree/master/2466-maximum-segment-sum-after-removals) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ben-on/competitive-programming/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ben-on/competitive-programming/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2690-house-robber-iv](https://github.com/ben-on/competitive-programming/tree/master/2690-house-robber-iv) |
 | [3227-find-missing-and-repeated-values](https://github.com/ben-on/competitive-programming/tree/master/3227-find-missing-and-repeated-values) |
 | [3483-alternating-groups-ii](https://github.com/ben-on/competitive-programming/tree/master/3483-alternating-groups-ii) |
 | [3487-find-maximum-removals-from-source-string](https://github.com/ben-on/competitive-programming/tree/master/3487-find-maximum-removals-from-source-string) |
@@ -255,6 +256,7 @@ Description
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/ben-on/competitive-programming/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/ben-on/competitive-programming/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ben-on/competitive-programming/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2690-house-robber-iv](https://github.com/ben-on/competitive-programming/tree/master/2690-house-robber-iv) |
 ## Interactive
 |  |
 | ------- |
