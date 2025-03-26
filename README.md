@@ -235,16 +235,19 @@ Description
 ## Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ben-on/competitive-programming/tree/master/0104-maximum-depth-of-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ben-on/competitive-programming/tree/master/2564-most-profitable-path-in-a-tree) |
 | [3509-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/ben-on/competitive-programming/tree/master/3509-k-th-largest-perfect-subtree-size-in-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ben-on/competitive-programming/tree/master/0104-maximum-depth-of-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ben-on/competitive-programming/tree/master/2564-most-profitable-path-in-a-tree) |
 | [3509-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/ben-on/competitive-programming/tree/master/3509-k-th-largest-perfect-subtree-size-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ben-on/competitive-programming/tree/master/0104-maximum-depth-of-binary-tree) |
 | [3509-k-th-largest-perfect-subtree-size-in-binary-tree](https://github.com/ben-on/competitive-programming/tree/master/3509-k-th-largest-perfect-subtree-size-in-binary-tree) |
 ## Enumeration
 |  |
@@ -285,6 +288,7 @@ Description
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ben-on/competitive-programming/tree/master/0104-maximum-depth-of-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ben-on/competitive-programming/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Graph
 |  |
