@@ -48,6 +48,7 @@ Description
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ben-on/competitive-programming/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0735-asteroid-collision](https://github.com/ben-on/competitive-programming/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/ben-on/competitive-programming/tree/master/0739-daily-temperatures) |
+| [0792-binary-search](https://github.com/ben-on/competitive-programming/tree/master/0792-binary-search) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ben-on/competitive-programming/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0926-find-and-replace-pattern](https://github.com/ben-on/competitive-programming/tree/master/0926-find-and-replace-pattern) |
 | [0948-sort-an-array](https://github.com/ben-on/competitive-programming/tree/master/0948-sort-an-array) |
@@ -253,6 +254,7 @@ Description
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/ben-on/competitive-programming/tree/master/0074-search-a-2d-matrix) |
+| [0792-binary-search](https://github.com/ben-on/competitive-programming/tree/master/0792-binary-search) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/ben-on/competitive-programming/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/ben-on/competitive-programming/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ben-on/competitive-programming/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
