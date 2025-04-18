@@ -1,33 +1,47 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        # Create an adjacency list to represent the graph of course prerequisites
+        # Build adjacency list representing the course dependency graph
         course_graph = [[] for _ in range(numCourses)]
-        # Track the number of prerequisites (in-degree) for each course
+        # No. of prerequisites is not used here but left in original structure
         prereq_count = [0] * numCourses
 
-        # Build the graph and populate the prerequisites count
         for course, prereq in prerequisites:
             course_graph[prereq].append(course)
             prereq_count[course] += 1
 
-        # Initialize queue with courses that have no prerequisites
-        available_courses = deque([i for i in range(numCourses) if prereq_count[i] == 0])
-        course_order = []
+        course_order = deque()
+        # visited status: 0 = unvisited, 1 = visiting (gray), 2 = visited (black)
+        visited = [0] * numCourses
 
-        while available_courses:
-            num_available = len(available_courses)
-            for _ in range(num_available):
-                current = available_courses.popleft()
-                course_order.append(current)
+        def dfs(course):
+            # If already fully visited, no need to process again
+            if visited[course] == 2:
+                return True
+            # If currently visiting, a cycle is detected
+            if visited[course] == 1:
+                return False
+            # If no outgoing edges (leaf node)
+            if course_graph[course] == []:
+                visited[course] = 2
+                course_order.appendleft(course)
+                return True
 
-                # Decrease the prereq count of courses dependent on the current one
-                for dependent in course_graph[current]:
-                    prereq_count[dependent] -= 1
-                    if prereq_count[dependent] == 0:
-                        available_courses.append(dependent)
+            # Mark as visiting
+            visited[course] = 1
+            is_valid = True
+            for next_course in course_graph[course]:
+                is_valid = is_valid and dfs(next_course)
 
-        # If we couldn't schedule all courses, there's a cycle
-        if len(course_order) != numCourses:
-            return []
+            # Mark as visited
+            visited[course] = 2
+            course_order.appendleft(course)
 
-        return course_order
+            return is_valid
+
+        has_no_cycle = True
+        for i in range(numCourses):
+            if visited[i] == 0:
+                has_no_cycle = has_no_cycle and dfs(i)
+
+        # Return order if no cycle, otherwise empty list
+        return list(course_order) if has_no_cycle else []
