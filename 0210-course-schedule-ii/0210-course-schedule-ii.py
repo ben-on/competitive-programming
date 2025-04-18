@@ -7,22 +7,42 @@ class Solution:
             graph[pre].append(course)
             pres[course] += 1
         
-
-        que = deque([i for i in range(numCourses) if pres[i] == 0])
         ans = []
-        while que:
-            r = len(que)
-            for i in range(r):
-                temp = que.popleft()
-                ans.append(temp)
-                for child in graph[temp]:
-                    pres[child] -= 1
-                    if pres[child] == 0:
-                        que.append(child)
-                
-        if len(ans) != numCourses:
-            return []
-        
-        return ans
+        visited = [0] * numCourses
+        # 0 means not visited, 1 is gray, 2 is black
 
+        def dfs(node):
+            if visited[node] == 2:
+                return True
                 
+            if graph[node] == []:
+                visited[node] = 2
+                ans.append(node)
+                return True
+
+            if visited[node] == 1:
+                return False
+
+            visited[node] = 1
+            res = True
+            for child in graph[node]:
+                res = res and dfs(child)
+            
+            visited[node] = 2
+            ans.append(node)
+
+            return res
+        
+        nocycle = True
+
+        for i in range(numCourses):
+            if visited[i] == 0:
+                nocycle = nocycle and dfs(i)
+        
+        if nocycle:
+            return ans[::-1]
+        
+        return []
+                
+
+            
