@@ -1,28 +1,33 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        graph = [[] for i in range(numCourses)]
-        pres = [0] * numCourses
+        # Create an adjacency list to represent the graph of course prerequisites
+        course_graph = [[] for _ in range(numCourses)]
+        # Track the number of prerequisites (in-degree) for each course
+        prereq_count = [0] * numCourses
 
-        for course, pre in prerequisites:
-            graph[pre].append(course)
-            pres[course] += 1
-        
+        # Build the graph and populate the prerequisites count
+        for course, prereq in prerequisites:
+            course_graph[prereq].append(course)
+            prereq_count[course] += 1
 
-        que = deque([i for i in range(numCourses) if pres[i] == 0])
-        ans = []
-        while que:
-            r = len(que)
-            for i in range(r):
-                temp = que.popleft()
-                ans.append(temp)
-                for child in graph[temp]:
-                    pres[child] -= 1
-                    if pres[child] == 0:
-                        que.append(child)
-                
-        if len(ans) != numCourses:
+        # Initialize queue with courses that have no prerequisites
+        available_courses = deque([i for i in range(numCourses) if prereq_count[i] == 0])
+        course_order = []
+
+        while available_courses:
+            num_available = len(available_courses)
+            for _ in range(num_available):
+                current = available_courses.popleft()
+                course_order.append(current)
+
+                # Decrease the prereq count of courses dependent on the current one
+                for dependent in course_graph[current]:
+                    prereq_count[dependent] -= 1
+                    if prereq_count[dependent] == 0:
+                        available_courses.append(dependent)
+
+        # If we couldn't schedule all courses, there's a cycle
+        if len(course_order) != numCourses:
             return []
-        
-        return ans
 
-                
+        return course_order
