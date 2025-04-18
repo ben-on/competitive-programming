@@ -1,30 +1,28 @@
 class Solution:
-    def findOrder(self, numCourses: int, pre: List[List[int]]) -> List[int]:
-        graph={c:[] for c in range(numCourses)}
-        for i in pre:
-            graph[i[1]].append(i[0])
-        cycle , vis = set(), set()
-        output = deque([])
-        for e in graph:
-            if e not in vis:
-                stk=[e]
-                while stk:
-                    child=False
-                    temp=stk[-1]
-                    cycle.add(temp)
-                    for nb in graph[temp]:
-                        if nb in cycle:
-                            return []
-                        if nb not in vis:
-                            if not child:
-                                child=True
-                            stk.append(nb)
-                    if not child:
-                        stk.pop()
-                        cycle.remove(temp)
-                        if temp not in vis:
-                            output.appendleft(temp)
-                            vis.add(temp)
-        return output
+    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        graph = [[] for i in range(numCourses)]
+        pres = [0] * numCourses
+
+        for course, pre in prerequisites:
+            graph[pre].append(course)
+            pres[course] += 1
+        
+
+        que = deque([i for i in range(numCourses) if pres[i] == 0])
+        ans = []
+        while que:
+            r = len(que)
+            for i in range(r):
+                temp = que.popleft()
+                ans.append(temp)
+                for child in graph[temp]:
+                    pres[child] -= 1
+                    if pres[child] == 0:
+                        que.append(child)
                 
-                    
+        if len(ans) != numCourses:
+            return []
+        
+        return ans
+
+                
