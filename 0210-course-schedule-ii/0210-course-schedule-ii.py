@@ -7,17 +7,17 @@ class Solution:
             graph[pre].append(course)
             pres[course] += 1
         
-        ans = []
+        ans = deque([])
         visited = [0] * numCourses
         # 0 means not visited, 1 is gray, 2 is black
 
         def dfs(node):
             if visited[node] == 2:
                 return True
-                
+
             if graph[node] == []:
                 visited[node] = 2
-                ans.append(node)
+                ans.appendleft(node)
                 return True
 
             if visited[node] == 1:
@@ -29,7 +29,7 @@ class Solution:
                 res = res and dfs(child)
             
             visited[node] = 2
-            ans.append(node)
+            ans.appendleft(node)
 
             return res
         
@@ -40,7 +40,7 @@ class Solution:
                 nocycle = nocycle and dfs(i)
         
         if nocycle:
-            return ans[::-1]
+            return list(ans)
         
         return []
                 
