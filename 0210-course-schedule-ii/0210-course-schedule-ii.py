@@ -1,6 +1,3 @@
-from collections import deque
-from typing import List
-
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         # Create an adjacency list to represent the graph of course prerequisites
