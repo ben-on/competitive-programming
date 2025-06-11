@@ -1,47 +1,25 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        # Build adjacency list representing the course dependency graph
-        course_graph = [[] for _ in range(numCourses)]
-        # No. of prerequisites is not used here but left in original structure
-        prereq_count = [0] * numCourses
+        # Build the graph and in-degree count
+        graph = defaultdict(list)
+        inDegree = [0] * numCourses
 
-        for course, prereq in prerequisites:
-            course_graph[prereq].append(course)
-            prereq_count[course] += 1
+        for dest, src in prerequisites:
+            graph[src].append(dest)
+            inDegree[dest] += 1
 
-        course_order = deque()
-        # visited status: 0 = unvisited, 1 = visiting (gray), 2 = visited (black)
-        visited = [0] * numCourses
+        # Queue for nodes with no incoming edges
+        queue = deque([i for i in range(numCourses) if inDegree[i] == 0])
+        order = []
 
-        def dfs(course):
-            # If already fully visited, no need to process again
-            if visited[course] == 2:
-                return True
-            # If currently visiting, a cycle is detected
-            if visited[course] == 1:
-                return False
-            # If no outgoing edges (leaf node)
-            if course_graph[course] == []:
-                visited[course] = 2
-                course_order.appendleft(course)
-                return True
+        while queue:
+            course = queue.popleft()
+            order.append(course)
 
-            # Mark as visiting
-            visited[course] = 1
-            is_valid = True
-            for next_course in course_graph[course]:
-                is_valid = is_valid and dfs(next_course)
+            for neighbor in graph[course]:
+                inDegree[neighbor] -= 1
+                if inDegree[neighbor] == 0:
+                    queue.append(neighbor)
 
-            # Mark as visited
-            visited[course] = 2
-            course_order.appendleft(course)
-
-            return is_valid
-
-        has_no_cycle = True
-        for i in range(numCourses):
-            if visited[i] == 0:
-                has_no_cycle = has_no_cycle and dfs(i)
-
-        # Return order if no cycle, otherwise empty list
-        return list(course_order) if has_no_cycle else []
+        # If all courses are in the order, return it. Otherwise, return empty list (cycle exists)
+        return order if len(order) == numCourses else []
